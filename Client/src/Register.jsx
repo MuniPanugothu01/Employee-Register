@@ -21,7 +21,6 @@ const Register = () => {
     }
   };
 
-  
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
