@@ -14,7 +14,7 @@ const Register = () => {
 
   const fetchEmployees = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/employees");
+      const response = await axios.get("http://localhost:3000/employees");
       setEmployees(response.data);
     } catch (error) {
       console.error("Error fetching employees", error);
